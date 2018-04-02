@@ -1,0 +1,304 @@
+
+.header_a{
+    width: 100%;
+    height:1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .tu1{
+        width: 30%;
+        height: 0.68rem;
+        margin-left:0.16rem;
+    }
+     .one_a{
+         width: 20%;
+         display: flex;
+         justify-content: space-around;
+         span{
+            font-size: 0.45rem;
+         }
+     }
+}
+.t2{
+    width: 100%;
+  img{
+      width:100%;
+  }
+}
+
+.one_b{
+    width: 100%;
+    list-style: none;
+    height: 2.3rem;
+    display: flex;
+margin: 0;padding: 0;
+    align-items: center;
+    background: white;
+    li{
+        width: 2rem;
+        text-align: center;
+        img{
+            width: 1.2rem;
+        }
+        a{
+            font-size: 0.28rem;
+            color: #333;
+        }
+        a:hover{
+            color: red;
+        }
+    }
+}
+.one_c{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 1rem;
+    .k{
+        width:0.05rem;
+        height: 0.42rem;
+        background: limegreen;
+    }
+    .k1{
+        font-size: 0.36rem;
+        color: #000;
+    }
+    .k2{
+        font-size: 0.24rem;
+        color: #999;
+    }
+}
+.z{
+    width: 100%;
+    height: 0.18rem;
+    background: whitesmoke;
+}
+.k3{
+    width: 100%;
+    padding:0  0.15rem;
+    margin-top: 0.1rem;
+    img{
+        width: 100%;
+    }
+}
+
+.k4{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    height: 1.12rem;
+    align-items: center;
+    margin-top: 0.2rem;
+    justify-content:space-between;
+   
+    padding: 0.1rem;
+ li{
+     
+    display: flex;
+    align-items: center;
+     text-align: center;
+   img{
+       width: 0.3rem;
+       margin-right: 0.01rem;
+   }
+   span{
+     font-size: 0.28rem;
+     color: #000000;
+   }
+  }
+}
+.z1{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    li{
+        width: 100%;
+        margin-top: 0.25rem;
+        input{
+            width: 5.86rem;
+            height: 0.7rem;
+            border: 0.01rem solid #eaeaea;
+            border-radius: 0.05rem;
+            font-size: 0.28rem;
+            color: #cacaca;
+        }
+        button{
+            width: 5.86rem;
+            height: 0.7rem;
+            background: orange;
+            font-size: 0.36rem;
+            color: white;
+            border: 0.01rem solid #eaeaea;
+            border-radius: 0.05rem;
+            border: none;
+        }
+    }
+}
+
+
+.z2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;      padding: 0;
+    margin-top: 0.4rem;
+    li{
+        width: 25%;
+        text-align: center;
+     
+        img{
+            width:70%;
+        }
+        p{
+            font-size:0.36rem;
+            color: #000;
+            margin-top: 0.25rem;
+        }
+        .z3{
+            width: 1.2rem;
+            height: 0.32rem;
+            background:#39C893;
+            color: white;
+            font-size: 0.24rem;
+            margin-left: 0.3rem;
+        }
+    }
+}
+.z4{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    padding: 0.1rem;
+    margin-top: 0.36rem;
+    li{
+        width: 50%;
+        height: 0.7rem;
+        line-height: 0.7rem;
+        border: 0.01rem solid gainsboro;
+       text-align: center; 
+       font-size: 0.28rem;
+       color: #39C893;
+       img{
+           width: 0.28rem;
+       }
+       
+    }
+}
+.z5{
+    width: 100%;
+    text-align: center;
+    position:relative;
+    img{
+        width: 7.16rem;
+        height: 5.06rem;
+//      position: absolute;
+    }
+    .z6{
+        width: 0.7rem;
+        height: 0.42rem;
+        line-height: 0.42rem;
+       background:rgb(124,126,118);
+       color: white;
+       text-align: center;
+       border-radius:0.1rem ;
+       position: absolute;
+        right:0;
+        bottom: 0.05rem;
+       
+    }
+}
+.z7{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    margin-top: 0.08rem;
+    padding: 0;
+    li{
+        width: 50%;
+        padding:0.08rem;
+        img{
+            width: 100%;
+        }
+    }
+}
+
+.f1{
+    width: 100%;
+    list-style: none;
+    padding: 0.1rem;
+    li{
+        width: 100%;
+        height: 2.25rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-bottom:0.01rem solid gainsboro ;
+        margin-top: 0.32rem;
+        img{
+            width: 1.9rem;
+            height: 1.45rem;
+            
+        }
+        span:nth-of-type(1){
+          font-size: 0.36rem;
+          color: #000;
+        }
+        span:nth-of-type(2){
+          font-size: 0.28rem;
+          color: #999;
+          
+        }
+                span:nth-of-type(3){
+          font-size: 0.28rem;
+          color: #999;
+          
+        }
+        .f{
+            padding: 0.05rem;
+        }
+    }
+}
+.f2{
+    width: 100%;
+    padding: 0;
+    font-size: 28px;
+    color: #333;
+    margin-top: 0.36rem;
+    text-indent: 2rem;
+}
+.f3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+    img{
+        width: 0.32rem;
+        
+    }
+    span{
+         font-size: 0.28rem;
+         color: #333;
+    }
+}
+.f4{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    padding: 0;
+     li{
+         width: 25%;
+         text-align: center;
+         font-size: 0.28rem;
+         color: #333;
+         
+     }
+}
+.foter{
+    width: 100%;
+    img{
+        width: 100%;
+    }
+}
